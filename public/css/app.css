@@ -16105,6 +16105,17 @@ header div#homefood {
   background-repeat: no-repeat;
 }
 
+.spec {
+  font-family: 'spectral';
+  font-weight: bold;
+}
+
+@media (min-width: 576px) {
+  .book img {
+    width: 100%;
+  }
+}
+
 section#booking {
   background-image: url("../img/book-bg.jpg");
   background-repeat: no-repeat;
@@ -16116,17 +16127,22 @@ section#booking select, section#booking input {
   color: grey;
 }
 
-.spec {
-  font-family: 'spectral';
+.weekly .entete {
+  position: relative;
+}
+
+.weekly .prix {
+  background-color: white;
+  opacity: 0.9;
+  color: orange;
+  font-size: 15px;
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0%;
+  padding: 10px;
 }
 
 .spec {
   font-family: 'spectral';
-  font-weight: bold;
-}
-
-@media (min-width: 576px) {
-  .book img {
-    width: 100%;
-  }
 }
