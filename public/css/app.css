@@ -16105,7 +16105,18 @@ header div#homefood {
   background-repeat: no-repeat;
 }
 
-header .spec {
+section#booking {
+  background-image: url("../img/book-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section#booking select, section#booking input {
+  border: none;
+  color: grey;
+}
+
+.spec {
   font-family: 'spectral';
 }
 
