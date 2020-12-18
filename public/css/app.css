@@ -16414,10 +16414,24 @@ a.text-copy:hover, a.text-copy:focus {
   }
 }
 
+select, input, textarea {
+  border: none !important;
+  color: grey;
+}
+
 header div#homefood {
   width: 100%;
   height: 100vh;
   background-image: url("../img/banner-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header .headerbg {
+  width: 100%;
+  height: 40vh;
+  background-image: url("../img/heading-bg.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
