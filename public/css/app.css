@@ -16488,6 +16488,28 @@ footer .icon {
   padding: 10px;
 }
 
+#homeblog {
+  background-image: url("../img/heading-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blog {
+  position: relative;
+}
+
+.blog .date {
+  background-color: white;
+  opacity: 0.9;
+  color: orange;
+  font-size: 15px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0%;
+  padding: 10px;
+}
+
 .spec {
   font-family: 'spectral';
 }
