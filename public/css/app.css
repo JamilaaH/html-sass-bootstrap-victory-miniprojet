@@ -16414,6 +16414,11 @@ a.text-copy:hover, a.text-copy:focus {
   }
 }
 
+select, input, textarea {
+  border: none !important;
+  color: grey;
+}
+
 header div#homefood {
   width: 100%;
   height: 100vh;
